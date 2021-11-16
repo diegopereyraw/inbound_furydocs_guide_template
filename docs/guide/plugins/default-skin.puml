@@ -1,0 +1,68 @@
+@startuml
+
+skinparam dpi 100
+skinparam shadowing false
+skinparam monochrome false
+
+skinparam backgroundColor #FEFEFE
+
+skinparam defaultFontName Helvetica Neue
+skinparam defaultFontSize 12
+
+skinparam CircledCharacterFontName Courier New
+
+skinparam nodesep 80
+skinparam ranksep 40
+
+skinparam class {
+	ArrowColor Black
+	BackgroundColor Beige
+	BorderColor Black
+	BorderThickness 1
+}
+
+skinparam state {
+	ArrowColor Black
+	BackgroundColor Beige
+	BorderColor Black
+}
+
+skinparam package {
+	BackgroundColor Beige
+	BorderColor Black
+}
+
+skinparam note {
+	BackgroundColor White
+	BorderColor Black
+}
+
+skinparam component {
+	BackgroundColor Beige
+	InterfaceBackgroundColor Beige
+	BorderColor Black
+	InterfaceBorderColor Black
+}
+
+skinparam cloud {
+	BackgroundColor White
+}
+
+skinparam sequence {
+	ArrowColor Black
+	BackgroundColor White
+	ParticipantBackgroundColor Beige
+	ParticipantPadding 15
+	BorderColor Black
+	LifeLineBorderColor Black
+	ParticipantBorderColor Black
+	BoxLineColor Black
+}
+
+skinparam SequenceMessage {
+  Margin 5
+  Padding 5
+  BackgroundColor White
+}
+
+@enduml

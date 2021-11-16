@@ -1,0 +1,14 @@
+@startuml
+
+!include ../../plugins/default-skin.puml
+
+component [fbm-application] <<app>> #PaleGreen
+component [appdatabase] <<database>> #PaleGreen
+
+cloud {
+  [fury-apps] ..> [fbm-application]
+}
+
+[fbm-application] .> [appdatabase]
+
+@enduml

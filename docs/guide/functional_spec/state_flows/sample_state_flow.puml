@@ -1,0 +1,9 @@
+@startuml
+
+!include ../../plugins/default-skin.puml
+
+[*] -> WORKING
+WORKING -> CONFIRMED
+CONFIRMED -> [*]
+
+@enduml
